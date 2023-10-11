@@ -9,11 +9,12 @@ def htsRead(df):
     index = 1
     error = False
     counter = 0
+    columns = ['ImporterAccount', 'FilerCode', 'PartNumber', 'Description', 'Country', 'Tariff #', 'CountryOfOrigin']
 
     read_result = {
         'Printout': [],
         'Tariffs-affected': [],
-        'Final-df': pd.DataFrame(columns=df.columns.to_list())
+        'Final-df': pd.DataFrame(columns=columns)
     }
 
     for tariff in tariffs:
@@ -23,7 +24,7 @@ def htsRead(df):
         checkTariff = re.sub(regx, '', str(no_space_tariff))
         if not checkTariff == '':
             error = True
-            read_result['Final-df'].loc[counter] = df.loc[index-1]
+            read_result['Final-df'].loc[counter] = df.loc[index-2]
             counter += 1
             read_result['Tariffs-affected'].append(index)
             read_result['Printout'].append('{})Tariff {} has an issue at row {}'.format(counter, tariff, index))           

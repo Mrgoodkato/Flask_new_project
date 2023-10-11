@@ -63,21 +63,31 @@ input::file-selector-button, .btn{
     color: rgb(42, 37, 51);
 }
 
-table{
+.result-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 75%;
 }
 
-tr{
-    display: flex;
-    align-items: baseline;
-    border: 0;
-    font-size: 0.8rem;
-    gap: 5px;
+table{
+    border:0;
+    width:100%;
 }
 
 th{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 200;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    border:0;
+    text-align:left;
+    
+}
+
+td{
+   border:0; 
+}
+
+tr{
+    border: 0;
+    font-size: 0.8rem;
 }
