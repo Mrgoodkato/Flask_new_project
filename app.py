@@ -34,19 +34,22 @@ def upload_file():
 @app.route('/display')
 def display_dataframe():
     
-    df = pd.read_excel(session.get('uploaded-file'))
+    na_values = ['', 'NaN', 'NA', 'N/A']
+    df = pd.read_excel(session.get('uploaded-file'), na_values=na_values)
+    os.remove(session.get('uploaded-file'))
     selection_option = session['option']
 
     #Here we go into a switch that will select the correct script to use in the file
     #according to the type of file and option selected in the form
     result = operations.operationSelection(df, selection_option)
 
-    os.remove(session.get('uploaded-file'))
+    tariffs_messages = zip(result['Tariffs-affected'], result['Printout'], result['Details'])
+
+    
 
     if(selection_option == 'hts' and result != 'Not a valid HTS file'):
         return render_template('display.html', 
-                                message=result['Printout'],
-                                tariffs=result['Tariffs-affected'],
+                                list_messages=tariffs_messages,
                                 table=result['Final-df'].to_html())
     else:
         return render_template('nodata.html', message=result)

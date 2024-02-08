@@ -8,15 +8,37 @@
 </head>
 <body>
 
-    <h1>Tariffs with errors</h1>
-    {{tariffs | safe}}
+    <div class="main-container">
+        <h1>Tariffs with errors</h1>
+        {% set list_messages = list_messages | list %}
+        {% if list_messages | length > 0 %}
+            <div class="message-container">
+                {% for row, message, detail in list_messages %}
+                    <div class="message-container-card">
+                        <p class="tariff">Row {{row | safe}}</p>
+                        <p class="error">{{message | safe}}</p>
+                        <p class="detail">Tariff is: <strong>{{detail['length'] | safe}}</strong> characters long</p>
+                        <p class="detail">Special character issues:</p>
+                        
+                        {% for error in detail['characters'] %}
 
-    <p>{{message | safe}}</p>
+                            <p class="error">{{error | safe}}</p>
 
-    <h1>Rows with errors: </h1>
-    <div class="result-content">
-        {{table | safe}}
+                        {% endfor %}
+                    </div>
+                    
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No tariffs with errors</p>
+        {% endif %}
+        
+        <h1>Rows with errors: </h1>
+        <div class="result-content">
+            {{table | safe}}
+        </div>
     </div>
+    
     
 </body>
 </html>
