@@ -1,1 +1,229 @@
-[{"htsno":"0101","indent":0,"description":"Live horses, asses, mules and hinnies:","superior":null,"units":[],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":"","additionalDuties":"","addiitionalDuties":null},{"htsno":"","indent":1,"description":"Horses:","superior":"true","units":[],"general":"","special":"","other":"","footnotes":null,"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.21.00","indent":2,"description":"Purebred breeding animals","superior":null,"units":[],"general":"Free","special":"","other":"Free","footnotes":[{"columns":["general"],"marker":"1","value":"See 9903.88.15. ","type":"endnote"}],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.21.00.10","indent":3,"description":"Males","superior":null,"units":["No."],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.21.00.20","indent":3,"description":"Females","superior":null,"units":["No."],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.29.00","indent":2,"description":"Other","superior":null,"units":[],"general":"Free","special":"","other":"20%","footnotes":[{"columns":["general"],"marker":"1","value":"See 9903.88.15. ","type":"endnote"}],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.29.00.10","indent":3,"description":"Imported for immediate slaughter","superior":null,"units":["No."],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.29.00.90","indent":3,"description":"Other","superior":null,"units":["No."],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.30.00.00","indent":1,"description":"Asses","superior":null,"units":["No."],"general":"6.8%","special":"Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)","other":"15%","footnotes":[{"columns":["general"],"marker":"1","value":"See 9903.88.15. ","type":"endnote"}],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.90","indent":1,"description":"Other:","superior":null,"units":[],"general":"","special":"","other":"","footnotes":[],"quotaQuantity":"","additionalDuties":"","addiitionalDuties":null},{"htsno":"0101.90.30.00","indent":2,"description":"Imported for immediate slaughter","superior":null,"units":["No."],"general":"Free","special":"","other":"Free","footnotes":[{"columns":["general"],"marker":"1","value":"See 9903.88.15. ","type":"endnote"}],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null},{"htsno":"0101.90.40.00","indent":2,"description":"Other","superior":null,"units":["No."],"general":"4.5%","special":"Free (A+,AU,BH,CL,CO,D,E, IL,JO,KR,MA,OM,P,PA,PE,S, SG)","other":"20%","footnotes":[{"columns":["general"],"marker":"1","value":"See 9903.88.15. ","type":"endnote"}],"quotaQuantity":null,"additionalDuties":null,"addiitionalDuties":null}]
+[
+    {
+        "htsno": "0101",
+        "indent": 0,
+        "description": "Live horses, asses, mules and hinnies:",
+        "superior": null,
+        "units": [],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": "",
+        "additionalDuties": "",
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "",
+        "indent": 1,
+        "description": "Horses:",
+        "superior": "true",
+        "units": [],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": null,
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.21.00",
+        "indent": 2,
+        "description": "Purebred breeding animals",
+        "superior": null,
+        "units": [],
+        "general": "Free",
+        "special": "",
+        "other": "Free",
+        "footnotes": [
+            {
+                "columns": [
+                    "general"
+                ],
+                "marker": "1",
+                "value": "See 9903.88.15. ",
+                "type": "endnote"
+            }
+        ],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.21.00.10",
+        "indent": 3,
+        "description": "Males",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.21.00.20",
+        "indent": 3,
+        "description": "Females",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.29.00",
+        "indent": 2,
+        "description": "Other",
+        "superior": null,
+        "units": [],
+        "general": "Free",
+        "special": "",
+        "other": "20%",
+        "footnotes": [
+            {
+                "columns": [
+                    "general"
+                ],
+                "marker": "1",
+                "value": "See 9903.88.15. ",
+                "type": "endnote"
+            }
+        ],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.29.00.10",
+        "indent": 3,
+        "description": "Imported for immediate slaughter",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.29.00.90",
+        "indent": 3,
+        "description": "Other",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.30.00.00",
+        "indent": 1,
+        "description": "Asses",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "6.8%",
+        "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+        "other": "15%",
+        "footnotes": [
+            {
+                "columns": [
+                    "general"
+                ],
+                "marker": "1",
+                "value": "See 9903.88.15. ",
+                "type": "endnote"
+            }
+        ],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.90",
+        "indent": 1,
+        "description": "Other:",
+        "superior": null,
+        "units": [],
+        "general": "",
+        "special": "",
+        "other": "",
+        "footnotes": [],
+        "quotaQuantity": "",
+        "additionalDuties": "",
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.90.30.00",
+        "indent": 2,
+        "description": "Imported for immediate slaughter",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "Free",
+        "special": "",
+        "other": "Free",
+        "footnotes": [
+            {
+                "columns": [
+                    "general"
+                ],
+                "marker": "1",
+                "value": "See 9903.88.15. ",
+                "type": "endnote"
+            }
+        ],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    },
+    {
+        "htsno": "0101.90.40.00",
+        "indent": 2,
+        "description": "Other",
+        "superior": null,
+        "units": [
+            "No."
+        ],
+        "general": "4.5%",
+        "special": "Free (A+,AU,BH,CL,CO,D,E, IL,JO,KR,MA,OM,P,PA,PE,S, SG)",
+        "other": "20%",
+        "footnotes": [
+            {
+                "columns": [
+                    "general"
+                ],
+                "marker": "1",
+                "value": "See 9903.88.15. ",
+                "type": "endnote"
+            }
+        ],
+        "quotaQuantity": null,
+        "additionalDuties": null,
+        "addiitionalDuties": null
+    }
+]
